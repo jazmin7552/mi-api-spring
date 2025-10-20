@@ -1,0 +1,24 @@
+### Ver todos los productos
+GET http://localhost:8080/api/productos
+
+### Crear un nuevo producto
+POST http://localhost:8080/api/productos
+Content-Type: application/json
+
+{
+  "nombre": "Laptop",
+  "precio": 1200.00,
+  "descripcion": "Laptop de 15 pulgadas",
+  "categoria": "Electrónica"
+}
+
+### Crear otro producto
+POST http://localhost:8080/api/productos
+Content-Type: application/json
+
+{
+  "nombre": "Mouse inalámbrico",
+  "precio": 25.50,
+  "descripcion": "Mouse USB inalámbrico",
+  "categoria": "Accesorios"
+}

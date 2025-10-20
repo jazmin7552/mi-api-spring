@@ -1,0 +1,111 @@
+/* ====== ESTILOS GENERALES ====== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* ====== CONTENEDOR PRINCIPAL ====== */
+form, table {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* ====== FORMULARIO ====== */
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button[type="button"] {
+  background-color: #6c757d;
+}
+
+button[type="button"]:hover {
+  background-color: #565e64;
+}
+
+/* ====== TABLA ====== */
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+table thead {
+  background-color: #007bff;
+  color: white;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+  background-color: #f2f2f2;
+}
+
+table button {
+  padding: 8px 12px;
+  font-size: 13px;
+}
+
+table button:nth-child(1) {
+  background-color: #ffc107;
+  color: #333;
+}
+
+table button:nth-child(1):hover {
+  background-color: #e0a800;
+}
+
+table button:nth-child(2) {
+  background-color: #dc3545;
+}
+
+table button:nth-child(2):hover {
+  background-color: #c82333;
+}

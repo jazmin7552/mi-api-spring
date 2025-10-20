@@ -1,0 +1,10 @@
+### Crear producto
+POST http://localhost:8080/api/productos
+Content-Type: application/json
+
+{
+  "nombre": "Laptop",
+  "precio": 1200.00,
+  "descripcion": "Laptop de 15 pulgadas",
+  "categoria": "Electrónica"
+}
